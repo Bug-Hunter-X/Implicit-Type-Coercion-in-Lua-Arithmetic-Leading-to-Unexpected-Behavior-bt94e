@@ -1,0 +1,3 @@
+This repository demonstrates a subtle Lua bug related to implicit type coercion in arithmetic operations. The `foo` function correctly handles `nil` input but throws an error when given a string argument. This showcases a scenario where input validation beyond `nil` checks is necessary for robust Lua code.
+
+The `bug.lua` file contains the buggy code, while `bugSolution.lua` presents a solution that explicitly handles string input, preventing the error. This example highlights the importance of type-safe coding practices in Lua to avoid runtime errors.
